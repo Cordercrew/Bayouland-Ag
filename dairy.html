@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Bayouland Creamery — Small-Herd Jersey Dairy · Since 2013</title>
+<meta name="description" content="Bayouland Creamery: farm-fresh dairy from a small, hand-raised Jersey herd in Louisiana. Order direct from the Corder family farm." />
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%232C3B4C'/%3E%3Cpath d='M9 12c0-3 3-5 7-5s7 2 7 5v6c0 4-3 7-7 7s-7-3-7-7z' fill='%23F4EDDD'/%3E%3Ccircle cx='13' cy='15' r='1.4' fill='%232C3B4C'/%3E%3Ccircle cx='19' cy='15' r='1.4' fill='%232C3B4C'/%3E%3C/svg%3E" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..600;1,9..144,300..500&family=Archivo:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body class="theme-dairy">
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="site-head">
+  <div class="wrap">
+    <a class="brand" href="index.html"><b>Bayouland</b><span class="tag">Ag&nbsp;Enterprises</span></a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="nav">Menu</button>
+    <nav class="nav" id="nav" aria-label="Primary">
+      <a href="index.html">Our Farm</a>
+      <a href="honey.html">Bayou Bees</a>
+      <a href="dairy.html" aria-current="page">Bayouland Creamery</a>
+      <a href="#order" class="btn">Order dairy</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- HERO -->
+  <section class="phero phero--dairy">
+    <div class="phero__img"><img src="assets/dairy-calf-color.jpg" alt="A young Jersey calf resting in bright green pasture" /></div>
+    <div class="phero__scrim"></div>
+    <div class="wrap">
+      <img class="phero__logo" src="assets/logo-creamery.jpg" alt="Bayouland Creamery — Since 2013" />
+      <span class="k">Small-herd Jersey dairy · Since 2013</span>
+      <h1>Milk from cows we know by name.</h1>
+      <p class="lead">A little family creamery in Louisiana, raising gentle Jersey cows and doing right by them — one pail at a time.</p>
+      <div class="cta-row">
+        <a class="btn btn--on-dark" href="#shop">See what's fresh <span class="arw" aria-hidden="true">→</span></a>
+        <a class="btn btn--ghost btn--on-dark" href="#about">Meet the herd</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section" id="about">
+    <div class="wrap">
+      <div class="split">
+        <div class="figure figure--tall reveal">
+          <img src="assets/dairy-milking-bw.jpg" alt="Vintage black-and-white photo of a farmer milking cows in a barn" />
+          <span class="cap">The old way still works.</span>
+        </div>
+        <div class="split__body reveal">
+          <p class="eyebrow">Since 2013</p>
+          <h2 class="h-lg">A small herd, raised with patience.</h2>
+          <p>Bayouland Creamery started with a handful of Jersey cows and a simple idea: keep the herd small enough that every animal gets real attention. More than a decade later, that's still exactly how we run it.</p>
+          <p>Our cows graze, get named, get spoiled a little, and give us rich Jersey milk in return. When you buy from us, you're buying from a family that mucks the stalls and knows every cow in the pasture.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- QUOTE BLEED (hard work poster is Jason's own) -->
+  <section class="bleed tint-dairy">
+    <img src="assets/dairy-hardwork.jpg" alt="Young people washing show calves at a wash rack" />
+    <div class="overlay">
+      <div class="wrap">
+        <p class="q">Opportunity is often missed because it's wearing mud boots and looks like hard work.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRODUCTS -->
+  <section class="section band" id="shop">
+    <div class="wrap">
+      <div style="max-width:48ch; margin-bottom:clamp(2rem,4vw,3rem)">
+        <p class="eyebrow">From the creamery</p>
+        <h2 class="h-lg">Order what's fresh.</h2>
+        <p class="muted">Availability shifts with the herd and the season — set quantities and we'll confirm what we can fill this week.</p>
+      </div>
+      <div class="prod-grid">
+
+        <article class="prod reveal">
+          <div class="prod__img"><img src="assets/dairy-calf-bw.jpg" alt="Jersey calf portrait" /></div>
+          <div class="prod__body">
+            <h3>Fresh Jersey Milk</h3>
+            <p class="price">$<span class="ph">price on request</span></p>
+            <p class="desc">Rich, creamy whole milk from our Jersey herd. Sold by the container — ask about sizes.</p>
+            <div class="qty" data-product="milk" data-name="Fresh Jersey Milk" data-unit="container">
+              <label>Qty</label>
+              <span class="stepper">
+                <button type="button" data-act="minus" aria-label="Decrease quantity">–</button>
+                <input type="number" value="0" min="0" max="99" aria-label="Milk quantity" />
+                <button type="button" data-act="plus" aria-label="Increase quantity">+</button>
+              </span>
+            </div>
+            <a class="btn" href="#order" data-add="milk" style="margin-top:.6rem; justify-content:center">Add &amp; order <span class="arw" aria-hidden="true">→</span></a>
+          </div>
+        </article>
+
+        <article class="prod reveal">
+          <div class="prod__img"><img src="assets/dairy-calf-color.jpg" alt="Jersey calf in pasture" /></div>
+          <div class="prod__body">
+            <h3>Farmstead Butter</h3>
+            <p class="price">$<span class="ph">price on request</span></p>
+            <p class="desc">Golden Jersey-cream butter, churned in small batches. Limited quantities.</p>
+            <div class="qty" data-product="butter" data-name="Farmstead Butter" data-unit="each">
+              <label>Qty</label>
+              <span class="stepper">
+                <button type="button" data-act="minus" aria-label="Decrease quantity">–</button>
+                <input type="number" value="0" min="0" max="99" aria-label="Butter quantity" />
+                <button type="button" data-act="plus" aria-label="Increase quantity">+</button>
+              </span>
+            </div>
+            <a class="btn" href="#order" data-add="butter" style="margin-top:.6rem; justify-content:center">Add &amp; order <span class="arw" aria-hidden="true">→</span></a>
+          </div>
+        </article>
+
+        <article class="prod reveal">
+          <div class="prod__img"><img src="assets/dairy-milking-bw.jpg" alt="Milking by hand in the barn" /></div>
+          <div class="prod__body">
+            <h3>Creamery Cheese</h3>
+            <p class="price"><span class="ph">seasonal — ask us</span></p>
+            <p class="desc">Small-batch cheese when the milk allows. Add it here and we'll tell you what's ready.</p>
+            <div class="qty" data-product="cheese" data-name="Creamery Cheese" data-unit="seasonal">
+              <label>Qty</label>
+              <span class="stepper">
+                <button type="button" data-act="minus" aria-label="Decrease quantity">–</button>
+                <input type="number" value="0" min="0" max="99" aria-label="Cheese quantity" />
+                <button type="button" data-act="plus" aria-label="Increase quantity">+</button>
+              </span>
+            </div>
+            <a class="btn" href="#order" data-add="cheese" style="margin-top:.6rem; justify-content:center">Add &amp; order <span class="arw" aria-hidden="true">→</span></a>
+          </div>
+        </article>
+
+      </div>
+      <p class="muted" style="margin-top:1.6rem; font-size:.86rem; max-width:60ch">
+        A note on raw milk: dairy sales are regulated differently state to state. We'll make sure your order follows Louisiana rules when we confirm it — swap in your own product list and any required labeling before you go live.
+      </p>
+    </div>
+  </section>
+
+  <!-- ORDER -->
+  <section class="section order" id="order">
+    <div class="wrap">
+      <div style="max-width:48ch; margin-bottom:clamp(2rem,4vw,3rem)">
+        <p class="eyebrow">Order direct</p>
+        <h2 class="h-lg">Send us your creamery order.</h2>
+        <p class="muted">Tell us what you'd like and we'll reply to confirm availability, price, and pickup or delivery.</p>
+      </div>
+
+      <div class="order__grid">
+        <aside class="summary" aria-label="Your order">
+          <h3>Your order</h3>
+          <p class="sub">Adjust quantities in the shop above.</p>
+          <ul id="summary-list"><li class="empty">No items yet — add something above.</li></ul>
+          <p class="note">This sends an order <em>request</em>, not a charged payment. We'll confirm everything before anything changes hands.</p>
+        </aside>
+
+        <form id="order-form"
+              data-endpoint="https://formspree.io/f/YOUR_FORM_ID"
+              data-fallback-email="orders@bayoulandcreamery.com"
+              method="POST" novalidate>
+          <input type="hidden" name="_subject" value="New Bayouland Creamery order" />
+          <input type="hidden" name="order_items" id="order-items" value="" />
+          <input type="hidden" name="farm" value="Bayouland Creamery (dairy)" />
+          <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" style="position:absolute;left:-9999px" aria-hidden="true" />
+
+          <div class="field-row">
+            <div class="field">
+              <label for="name">Your name</label>
+              <input id="name" name="name" type="text" required autocomplete="name" />
+            </div>
+            <div class="field">
+              <label for="phone">Phone</label>
+              <input id="phone" name="phone" type="tel" autocomplete="tel" />
+            </div>
+          </div>
+          <div class="field">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" required autocomplete="email" />
+          </div>
+          <div class="field">
+            <label for="fulfillment">Pickup or delivery?</label>
+            <select id="fulfillment" name="fulfillment">
+              <option>Local pickup in Crowley</option>
+              <option>Local delivery (if available)</option>
+              <option>Not sure — let's talk</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="notes">Anything else?</label>
+            <textarea id="notes" name="notes" placeholder="Timing, sizes, questions about availability…"></textarea>
+          </div>
+          <button class="btn" type="submit">Send order request <span class="arw" aria-hidden="true">→</span></button>
+          <p class="form-note">By sending, you're asking us to reach out — you're not being charged yet.</p>
+          <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-foot">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div class="fbrand">
+        <img class="fbrand__logo" src="assets/logo-bayouland-sm.png" alt="Bayouland Ag Enterprises" />
+        <b>Bayouland Creamery</b>
+        <p style="color:#C3CBB6; max-width:34ch">Small-herd Jersey dairy since 2013 — a branch of Bayouland Ag Enterprises, Crowley, LA.</p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="index.html">The family farm</a></li>
+          <li><a href="honey.html">Bayou Bees honey</a></li>
+          <li><a href="#shop">Creamery goods</a></li>
+          <li><a href="#order">Place an order</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Get in touch</h4>
+        <ul>
+          <li><a href="mailto:orders@bayoulandcreamery.com">orders@bayoulandcreamery.com</a></li>
+          <li>Crowley, Louisiana</li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© <span id="year">2026</span> Bayouland Creamery · Bayouland Ag Enterprises</span>
+      <span>Since 2013 · Raised by hand</span>
+    </div>
+  </div>
+</footer>
+
+<script src="site.js"></script>
+</body>
+</html>
